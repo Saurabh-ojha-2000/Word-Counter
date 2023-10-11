@@ -33,18 +33,6 @@ const togglemode = (palette) => {
   removeBodyClasses();
   document.body.classList.add('bg-' + palette.trim()); // Use trim() to remove any leading/trailing spaces.
 
-  // if (mode === 'light') {
-  //     setMode('dark');
-  //     document.body.style.backgroundColor = '#042743';
-  //     showAlert("Dark mode is enabled", "success");
-  //     document.title = "Word Converter - Dark Mode";
-  // } else {
-  //     setMode('light');
-  //     document.body.style.backgroundColor = 'white';
-  //     showAlert("Light mode is enabled", "success");
-  //     document.title = "Word Converter - Light Mode";
-  // }
-
   if (mode=== 'light' ,'warning', 'danger', 'success' , 'info' , 'primary'){
     setMode('dark');
       document.body.style.backgroundColor = '#042743';
